@@ -1,0 +1,15 @@
+
+#sheetrow div {
+    float: left;
+    border:1px solid #000000;
+    width: 14%;
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 50px;
+  white-space: nowrap;
+  border-top: none
+}
+
+#sheetrow #first-column {
+    width: 30%;
+   }
