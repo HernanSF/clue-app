@@ -1,0 +1,9 @@
+
+#sheet .sheetseparator{
+    border: 1px solid black;
+    background-color: gold;
+    color: #333;
+    height: 30px;
+    line-height: 30px;
+    min-height: 30px;
+}

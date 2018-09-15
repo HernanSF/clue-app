@@ -3,14 +3,15 @@ import './sheet-header.css'
 
 class SheetHeader extends Component {
     render() {
+        var columns = []
+
+        for (var index = 0; index < this.props.columnCount; index++) {
+            columns.push(<div key={index} className="sheetheader-column">{"PR" + (index + 1)}</div>);
+        }
         return (
             <div id="sheetheader">
-                <div id="first-column">Evidencia</div>
-                <div>PR1</div>
-                <div>PR2</div>
-                <div>PR3</div>
-                <div>PR4</div>
-                <div>PR5</div>
+                <div className="sheetheader-column first-column">Evidencia</div>
+                {columns}
             </div>
         );
     }

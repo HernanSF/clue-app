@@ -1,7 +1,10 @@
+#sheetheader {
+  min-height: 50px;
+}
 
-
-#sheetheader div {
+.sheetheader-column {
     float: left;
+    background-color: lightcyan;
     border:1px solid black;
     width: 14%;
     box-sizing: border-box;
@@ -10,6 +13,8 @@
   white-space: nowrap;
 }
 
-#sheetheader #first-column {
+.first-column.sheetheader-column {
+  background-color: blue;
+  color: whitesmoke;
     width: 30%;
    }
