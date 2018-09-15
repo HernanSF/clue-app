@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import './imagenes/background.jpg';
 import Sheet from './components/sheet';
 
 const chars = ['Col. Mustard', 'Miss Scarlet', 'Mrs. White', 'Mrs. Peacock', 'Mr. Green', 'Professor Plum']
@@ -11,9 +11,10 @@ const iconSet = [{ icon:'', color: 'white'}, { icon: 'N', color: 'red'}, { icon:
 class App extends Component {
   render() {
     return (
-      <div id="app">
-        <Sheet columns="5" characters={chars} weapons={weaps} murderScenes={scenes} iconSet={iconSet}></Sheet>
-      </div>
+     <div id="app">
+      <li><img src="./imagenes/background.jpg" width="200" height="200"/></li>
+      <Sheet columns="5" characters={chars} weapons={weaps} murderScenes={scenes} iconSet={iconSet}></Sheet>
+     </div>
     );
   }
 }
