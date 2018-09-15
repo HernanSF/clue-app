@@ -18,5 +18,4 @@ class SheetCell extends Component {
         )
     }
 }
-
 export default SheetCell;   
