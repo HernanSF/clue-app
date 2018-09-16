@@ -4,7 +4,7 @@
 
 .sheetheader-column {
     float: left;
-    background-color: lightcyan;
+    background-color: "";
     border:1px solid black;
     width: 14%;
     box-sizing: border-box;
@@ -14,7 +14,7 @@
 }
 
 .first-column.sheetheader-column {
-  background-color: blue;
-  color: whitesmoke;
+  background-color: "";
+  color: black;
     width: 30%;
    }
