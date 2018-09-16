@@ -9,7 +9,7 @@ class Sheet extends Component {
     return (
       <div id="sheet">
         <SheetHeader columnCount={this.props.columns}></SheetHeader>
-        <SheetSeparator text="Sospechosos"></SheetSeparator>
+        <SheetSeparator id="first" text="Sospechosos"></SheetSeparator>
         {this.props.characters.map(char => <SheetRow key={char} columnCount={this.props.columns} text={char} iconSet={this.props.iconSet}></SheetRow>)}
         <SheetSeparator text="Arma Homicida"></SheetSeparator>
         {this.props.weapons.map(weaps => <SheetRow key={weaps} columnCount={this.props.columns} text={weaps} iconSet={this.props.iconSet}></SheetRow>)}

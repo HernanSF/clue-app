@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import background from './imagenes/background.jpg';
 import Sheet from './components/sheet';
-import BackgroundImage from 'react-background-image-loader';
 
 const chars = ['Col. Mustard', 'Miss Scarlet', 'Mrs. White', 'Mrs. Peacock', 'Mr. Green', 'Professor Plum']
 const weaps = ['Candlestick', 'Revolver', 'Wrench', 'Lead Pipe', 'Knife', 'Rope']
@@ -13,7 +11,7 @@ class App extends Component {
   render() {
     return (
      <div id="app">
-        <Sheet columns="5" characters={chars} weapons={weaps} murderScenes={scenes} iconSet={iconSet}></Sheet>
+        <Sheet  columns="5" characters={chars} weapons={weaps} murderScenes={scenes} iconSet={iconSet}></Sheet>
      </div>
     );
   }
