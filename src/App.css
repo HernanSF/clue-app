@@ -1,8 +1,9 @@
 #app {
   text-align: center;
+  background: url("./imagenes/background.jpg") no-repeat center fixed; 
+    background-size: cover;
 }
 
 .back-image {
-text-align: center;
-opacity: 0.5;
+  text-align: center
 }

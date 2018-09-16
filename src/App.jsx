@@ -13,12 +13,7 @@ class App extends Component {
   render() {
     return (
      <div id="app">
-    <BackgroundImage className="back-image" src={background}>
-        <div className="back-image-title">
-          Nada
-        </div>
         <Sheet columns="5" characters={chars} weapons={weaps} murderScenes={scenes} iconSet={iconSet}></Sheet>
-    </BackgroundImage>
      </div>
     );
   }
