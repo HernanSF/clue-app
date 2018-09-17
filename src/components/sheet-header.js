@@ -6,7 +6,7 @@ class SheetHeader extends Component {
         var columns = []
 
         for (var index = 0; index < this.props.columnCount; index++) {
-            columns.push(<div key={index} className="sheetheader-column">{"PR" + (index + 1)}</div>);
+            columns.push(<div key={index} className="sheetheader-column">{"P" + (index + 1)}</div>);
         }
         return (
             <div id="sheetheader">

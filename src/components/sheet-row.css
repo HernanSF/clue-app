@@ -1,16 +1,18 @@
 #sheetrow {
   min-height: 50px;
+  border-image: url(../imagenes/border.png) 30 stretch;
 }
 
 .sheet-column {
     float: left;
-    border:1px solid #000000;
+    border:px solid #000000;
     width: 14%;
     box-sizing: border-box;
     height: 50px;
     line-height: 50px;
   white-space: nowrap;
-  border-top: none
+  border-top: none;
+  text-align: center;
 }
 
 #sheetrow #first-column {

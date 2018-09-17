@@ -1,14 +1,15 @@
-
-#sheet .sheetseparator{
-    border: 1px solid black;
-    background-color:rgba(167, 164, 137, 0.932);
+#sheet .sheetseparator {
+    border: 2px solid black;
+    background-image: radial-gradient(rgba(184, 181, 157, 0.932), rgb(51, 51, 42));
     color: #333;
     height: 30px;
     line-height: 30px;
     min-height: 30px;
     text-align: center;
-}
-
-#first{
-text-align: right;
+    border-image: url(../imagenes/border2.png) 10 round;
+    letter-spacing: 3px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    font-weight: bold
+    
 }

@@ -11,10 +11,15 @@
     height: 50px;
     line-height: 50px;
   white-space: nowrap;
+  border-image: url(../imagenes/border2.png) 10 round;
+  font-family: "Courier New", Courier, monospace;
+    font-weight: bold
 }
 
 .first-column.sheetheader-column {
   background-color: "";
   color: black;
     width: 30%;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold
    }
