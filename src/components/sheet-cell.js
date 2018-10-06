@@ -8,13 +8,21 @@ class SheetCell extends Component {
     }
 
     changeState() {
-        var nextIndex = this.state.icon + 1 >= this.state.iconSet.length ? 0 : this.state.icon + 1;
-        this.setState({ icon: nextIndex });
+        // var nextIndex = this.state.icon + 1 >= this.state.iconSet.length ? 0 : this.state.icon + 1;
+        // this.setState({ icon: nextIndex });
+       
+        this.setState({ show: true });
+    }
+
+    closeModal() {
+ // this.props.onTocado(modalValue, this.props.colNumber);
     }
 
     render() {
         return (
-            <div className="sheet-column" onClick={() => this.changeState()} style={{ backgroundColor: this.state.iconSet[this.state.icon].color }}>{this.state.iconSet[this.state.icon].icon}</div>
+            <div className="sheet-column" onClick={() => this.changeState()} style={{ backgroundColor: this.state.iconSet[this.state.icon].color }}>{this.state.iconSet[this.state.icon].icon}
+
+            </div>
         )
     }
 }
